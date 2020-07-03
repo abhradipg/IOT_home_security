@@ -1,0 +1,29 @@
+create database user_database;
+use user database;
+create table access_info(
+id INT,
+atype VARCHAR(15),
+atime VARCHER(40)
+);
+create table alert(
+ind INT NOT NULL PRIMARY KEY,
+num VARCHAR(10),
+en VARCHAR(1)
+);
+create table alert_otp(
+num VARCHAR(10),
+en VARCHAR(1),
+otp VARCHAR(4) NOT NULL PRIMARY KEY
+);
+create table unlock_otp(
+num VARCHAR(10),
+usr INT(11),
+otp VARCHAR(4) NOT NULL PRIMARY KEY
+);
+create table user_info(
+id INT NOT NULL PRIMARY KEY,
+username VARCHAR(40) NOT NULL,
+pasword VARCHAR(40) NOT NULL
+);
+insert into user_info (id,username,pasword)
+values(0,'invalid','invalid');

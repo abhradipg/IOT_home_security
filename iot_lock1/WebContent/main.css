@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+input[type="button"],[type="submit"]{
+	background-color:white;
+	border-style:solid;
+	border-color:#fa6400;
+	border-radius:5px;
+	cursor:pointer;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:1.5rem;
+	margin:10px;
+	flex:1;
+	max-width:50%;
+	min-width:240px;
+}
+
+input[type="submit"]:hover{
+	background-color:#ff8838;
+	border-color:white;
+}
+input[type="button"]:hover{
+	background-color:#ff8838;
+	border-color:white;
+}
+hr{
+	border-color:#00ff66;
+}
+form{
+	display:flex;
+	flex-direction: row ;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+a{
+	flex:1;
+	display:flex;
+	flex-direction: row ;
+	flex-wrap: wrap;
+	justify-content:center;
+	text-decoration:none;
+}
